@@ -59,9 +59,6 @@ export default defineConfig({
     historyApiFallback: true,
   },
 
-  // Base URL (change this if deploying to a subdirectory)
-  base: "/",
-
   // Define global constants
   define: {
     __APP_VERSION__: JSON.stringify(process.env.npm_package_version),
